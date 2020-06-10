@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#212121"
+    tools:context=".Mars">
+
+    <ImageView
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:layout_gravity="center"
+        android:id="@+id/ura"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_margin="16dp"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Uranus"
+                android:textStyle="bold"
+                android:textSize="30sp"
+                android:textAlignment="center"
+                android:textColor="#FFFFFF"/>
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="40dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Distance from the Sun: 2.9618 billion km"
+                android:textSize="25sp"
+                android:textAlignment="center"
+                android:textColor="#FFFFFF"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Days taken to complete one revolution: 30,687 Earth days"
+                android:textSize="25dp"
+                android:textColor="#FFFFFF"
+                android:textAlignment="center"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Time taken to complete one rotation: 17 hours"
+                android:textSize="25sp"
+                android:textAlignment="center"
+                android:textColor="#FFFFFF"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Axis of rotation: 98°"
+                android:textAlignment="center"
+                android:textSize="25dp"
+                android:textColor="#FFFFFF"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Temperature: Average of -353 degrees F."
+                android:textAlignment="center"
+                android:textSize="25dp"
+                android:textColor="#FFFFFF"/>
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>
